@@ -1,0 +1,207 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 1.5% 10%;
+}
+
+.btn {
+  border: 1px solid #000;
+  color: #000;
+  padding: .3rem 1.2rem;
+  text-decoration: none;
+}
+
+.light-btn {
+  color: #fafafa;
+  border: 1px solid #fafafa;
+}
+
+.line {
+  width: 150px;
+  height: 1px;
+  background: #837d87;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+nav {
+  background: #fff;
+  color: #837d87;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1% 0;
+  z-index: 1000;
+}
+
+nav .nav-links a {
+  display: inline-block;
+  color: #837d87;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #2d2640;
+  color: #fafafa;
+  padding: 5% 10%;
+  position: relative;
+  height: 80vh;
+}
+
+#showcase .header-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 1rem;
+}
+
+#showcase .header-left p {
+  line-height: 1.5;
+}
+
+#showcase .header-left .img-header-left {
+  position: absolute;
+  left: 0;
+  bottom: -40%;
+}
+
+#showcase .header-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#showcase .header-right .img-header-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#showcase .header-right .img-intro {
+  height: 100%;
+  position: absolute;
+  bottom: -10%;
+}
+
+#we {
+  padding-top: 10rem;
+}
+
+#we .we-divs {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#we .we-divs div {
+  margin-right: 1rem;
+}
+
+#we .we-divs div p {
+  color: #837d87;
+}
+
+#more {
+  margin: 5% 10%;
+  padding: 1% 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2d2640;
+  color: #fff;
+  background-image: url("../images/bg-pattern-how-we-work-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+#more h2 {
+  font-size: 2.5rem;
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 1.3px;
+}
+
+footer {
+  background-color: #fafafa;
+  background-image: url("../images/bg-pattern-footer-desktop.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding: 2rem 0;
+  margin-top: 7rem;
+}
+
+footer hr {
+  margin: 3% 0;
+}
+
+footer .footer-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-header .social-icons a {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+footer .footer-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-body .col h3 {
+  color: #95a9c6;
+}
+
+footer .footer-body .col a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+/*# sourceMappingURL=style.css.map */
